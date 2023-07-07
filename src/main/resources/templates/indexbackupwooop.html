@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="/static/mystyle.css">
+    <meta charset="UTF-8">
+    <title>Memory</title>
+    <script src="/static/js/script.js"></script>
+</head>
+<body id="Body" onload="cleaning()">
+<div class="buttonBox" id="LinkBox">
+    <button class="linkButton" onclick="window.location.href = 'highscores';">Highscores</button>
+    <button class="linkButton" onclick="window.location.href = 'memory';">Game</button>
+    <button class="linkButton" onclick="window.location.href = 'impressum';">Impressum</button>
+    <button class="linkButton" onclick="window.location.href = 'database';">Datenbank</button>
+
+</div>
+<h1>Memory</h1>
+<h2>
+
+    <input type="number" class ="input" id="PaarAnzahl" name="Anzahl" placeholder="Paare">
+    <label for="PaarAnzahl"></label>
+    <br>
+    <input type="number" class ="input" id="SpielerAnzahl" name="Anzahl" placeholder="Spieler">
+    <label for="SpielerAnzahl"></label>
+    <br>
+    <button type="button" onclick="StartUpGame()" class="buttonStart">Start</button>
+
+
+</h2>
+<div id="MemBox" class="MemoryBox">
+<table id="table">
+
+
+</table>
+</div>
+<div id="Scoreboard"></div>
+<br>
+<ul id="ColorIndex">
+
+</ul>
+<ul id="Scoreboarddyn">
+
+</ul>
+
+</body>
+</html>

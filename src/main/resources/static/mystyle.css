@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Oswald:wght@600&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Caprasimo', cursive; font-size: 48px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    color: #9598EC;
+    text-shadow: 2px 2px grey;
+}
+
+h2 {
+    text-align: center;
+}
+    body {
+    background-color: #EEF8FF;
+    color: #8d99ae;
+
+}
+
+table, td {
+
+         color: black;
+         margin: auto;
+         background-color: lightblue;
+         border:  2px solid darkblue;
+         border-radius: 1em 1em 1em 1em;
+         height: 75px;
+         padding : 0;
+
+
+
+
+}
+
+.cover {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://media.istockphoto.com/id/903522566/de/vektor/rote-und-schwarze-asse-nahtlose-muster.jpg?s=612x612&w=0&k=20&c=Cpx6Paxzn4KSHJH9FoeoXc4_PmTu4UeS7X-aJv4tfgA=');
+    background-size: cover;
+    border-radius: 1em 1em 1em 1em;
+    margin: 0px;
+    border: none;
+
+
+
+}
+
+
+.MemoryBox {
+    width: 50%;
+      color: black;
+      background-color: lightgrey;
+      border:  5px solid black;
+      border-radius: 1em 1em 1em 1em;
+      margin: auto;
+      padding: 1em;
+}
+
+.animation{
+animation-name: example;
+animation-duration: 2s;
+}
+
+.input{
+border-radius: 24px;
+padding-left: 10px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  clip-path: circle();
+}
+
+.container {
+  position: relative;
+  width: 25%;
+  max-width: 400px;
+  margin: auto;
+
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.gitHubButton {
+    border-radius: 10px;
+}
+
+.linkButton:hover {
+    text-shadow: 1px 1px;
+
+}
+
+.linkButton {
+    text-shadow: 0.5px 0.5px;
+    font-size: 24px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 200px;
+    border-style: none;
+    font-family: 'Oswald', sans-serif;
+    background-color: transparent;
+}
+
+.buttonBox:hover {
+    border: 2px solid lightgrey;
+}
+
+.buttonBox {
+    margin: auto;
+    box-shadow: 5px 5px;
+    background-color: #DADAF9;
+    width: 98%;
+    height: 60px;
+    border: 1px solid #D1F5FF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.buttonStart:hover {
+    color: black;
+}
+.buttonStart {
+    margin-top: 10px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 30px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+}
+
+
+@keyframes example {
+  from {opacity: 1;}
+  to {opacity: 0;}
+  }

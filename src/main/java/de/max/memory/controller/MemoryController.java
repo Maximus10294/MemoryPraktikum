@@ -39,12 +39,12 @@ public class MemoryController {
 
     @GetMapping("/memory")
     public ModelAndView getMemoryPage() {
-        return new ModelAndView("index.html");
+        return new ModelAndView("index");
     }
 
     @GetMapping("/impressum")
     public ModelAndView getImpressumPage() {
-        return new ModelAndView("impressum.html");
+        return new ModelAndView("impressum");
     }
 
     @GetMapping("/database")
@@ -53,7 +53,7 @@ public class MemoryController {
     }
     @GetMapping("/highscores")
     public ModelAndView getHighscorePage() {
-        return new ModelAndView("highscores.html");
+        return new ModelAndView("highscores");
     }
 
 
